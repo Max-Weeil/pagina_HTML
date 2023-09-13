@@ -1,0 +1,110 @@
+$primary: #d4a373;
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+.section{
+    padding: 60px 0;
+    color: red;
+    background-color: aqua;
+    background: yellow;
+}
+.banner{
+    //background: url("./Imagenes/psychologist-1015488_640.jpg") no-repeat;
+    background:black;
+    background-color: black ;
+    background-size:  cover;
+    background-position: top left;
+
+}
+
+.btn-primary{
+    color:white;
+    font-weight: bolder;
+}
+.banner-content > h1 {
+    //Cambiamos el tamaño de la letra
+    font-size: 50px;
+    font-weight: normal;
+    margin-bottom: 2rem;
+}
+.banner-content > h2 {
+    //Cambiamos el tamaño de la letra
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 2rem;
+}
+
+
+.align-items-center {
+    align-items: center !important;
+}
+.row > * {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-top: var(--bs-gutter-y);
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+.align-items-center {
+    align-items: center!important;
+}
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+hoja de estilo del agente de usuario
+div {
+    display: block;
+}
+.container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+.bg-light {
+    --bs-bg-opacity: 1;
+    /* background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important; */
+}
+.bg-light {
+    background-color: aquamarine;
+}
